@@ -1,0 +1,64 @@
+.about {
+    color: #f9004d;
+    text-align: center;
+    font-size: 3vw;
+
+}
+.aboutimage{
+    width: 30%;
+    float: left;
+    height: auto;
+
+}
+.description{
+    width: 70%;
+    float:right;
+    color: white;
+    border-radius: 20px;
+    position: sticky;
+    padding: 20px;
+    float: right;
+    font-size: 2vw;
+}
+.aboutinfo{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.avatar{
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 600px) {
+    .about {
+        color: #f9004d;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .aboutimage{
+        width: 30%;
+        float: left;
+        height: auto;
+    
+    }
+    .description{
+        width: 70%;
+        float:right;
+        color: white;
+        border-radius: 20px;
+        position: sticky;
+        padding: 20px;
+        float: right;
+        font-size: 10px;
+    }
+    .aboutinfo{
+        display: flex;
+        flex-direction: row;
+        float: left;
+    }
+    .avatar{
+        width: 100%;
+        height: auto;
+    }
+  }

@@ -1,0 +1,53 @@
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(39, 39, 39) ;
+}
+.content {
+  padding: 16px;
+}
+
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 18px;
+  font-size: medium;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover{color: #f9004d;}
+
+ul.topnav li a ::after{
+  background-color: yellow;
+}
+
+ul.topnav li.right {float: right;}
+ul.topnav li.left {float: left;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.left, 
+  ul.topnav li {float: none;
+                }
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 18px;
+    font-size: small;
+    text-decoration: none;
+  }
+  ul.topnav li.left {border-style: dotted;}
+}
+
+.logo{
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+}

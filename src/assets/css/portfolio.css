@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+.portfolio {
+    margin: auto;
+    padding: 10px;
+    color: white;
+} 
+header{
+    float: left;
+}
+h1{ 
+    color: #f9004d;
+}
+.projects{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    
+}
+.project{
+    border: 5px solid ;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:rgb(161, 161, 161);
+}
+.projectName{
+    font-family: 'Michroma', sans-serif;
+    color: #001f3f;
+    font-size: 25x;
+}
+.projectDescription{
+    font-family: 'Bellefair', serif;
+    font-size: 20px;
+}
+@media (max-width: 1300px) {
+    .projects {
+
+    padding: 1px;
+      flex-direction: column;
+    }
+    .project{
+        margin: 1px;
+    }
+  }

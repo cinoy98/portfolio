@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+
+.job{
+    font-family: 'Changa One', cursive;
+    color: #f9004d;
+    font-size: 6vw;
+}
+.name{
+    font-family: 'Prompt', sans-serif;
+    font-size: 6vw;
+    color: white;
+}
+h2{
+    color: white;
+    float: inline-start;
+    font-size: 4vw;
+}
+img{
+    float: right;
+    width: 40%;
+    height: auto;
+}
+.intro{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
